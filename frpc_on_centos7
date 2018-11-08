@@ -4,6 +4,8 @@
 sudo cp -r frp_0.21.0_linux_amd64 /etc/frp
 
 2、为frpc配置systemd的service文件：
+sudo vim /usr/lib/systemd/system/frpc.service
+
 [Unit]
 Description=frpc
 After=multi-user.target

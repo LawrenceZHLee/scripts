@@ -10,7 +10,7 @@ After=multi-user.target
  
 [Service]
 TimeoutStartSec=30
-ExecStart=/usr/local/bin/frpc -c /etc/frpc/frpc.ini
+ExecStart=/etc/frp/frpc -c /etc/frp/frpc.ini
 ExecStop=/bin/kill $MAINPID
  
 [Install]

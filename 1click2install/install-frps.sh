@@ -9,7 +9,7 @@ export PATH
 #===============================================================================================
 program_name="frps"
 version="1.8.5"
-str_program_dir="/usr/local/${program_name}"
+str_program_dir="/usr/local/frp"
 program_init="/etc/init.d/${program_name}"
 program_config_file="frps.ini"
 ver_file="/tmp/.frp_ver.sh"

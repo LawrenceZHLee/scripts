@@ -11,10 +11,13 @@ sudo cp -r frp_0.21.0_linux_amd64 /usr/local/frp
 sudo cp frps.service /usr/local/frp
 
 4、复制自启服务frps.service文件并启用
+
 sudo cp frps.service /usr/lib/systemd/system
 
 sudo systemctl enable frps
+
 #查看服务是否生效
+
 sudo systemctl list-units |grep frps
 
 
@@ -29,10 +32,13 @@ sudo cp -r frp_0.21.0_linux_amd64 /usr/local/frp
 sudo cp frpc.service /usr/local/frp
 
 4、复制自启服务frpc.service文件并启用
+
 sudo cp frpc.service /usr/lib/systemd/system
 
 sudo systemctl enable frpc
+
 #查看服务是否生效
+
 sudo systemctl list-units |grep frpc
 
 # 服务器端和客户端要开启对应的接口

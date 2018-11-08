@@ -3,7 +3,7 @@
 1、复制frpc启动命令及配置文件到系统相应目录：
 sudo cp -r frp_0.21.0_linux_amd64 /etc/frp
 
-2、为frpc配置systemd的service文件：
+2、为frpc配置systemd的service文件，或拷贝frpc.service文件到/usr/lib/systemd/system/：
 sudo vim /usr/lib/systemd/system/frpc.service
 
 [Unit]

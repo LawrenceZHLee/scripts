@@ -1,3 +1,5 @@
+服务器端和客户端都以linux_x86-64示例（centos、ubuntu等）
+
 # 服务器端
 
 1、下载 https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz

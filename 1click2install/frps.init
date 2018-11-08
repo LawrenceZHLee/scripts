@@ -20,8 +20,8 @@
 ### END INIT INFO
 
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-ProgramName="Frps"
-ProgramPath="/usr/local/frps"
+ProgramName="frps"
+ProgramPath="/usr/local/frp"
 NAME=frps
 BIN=${ProgramPath}/${NAME}
 CONFIGFILE=${ProgramPath}/frps.ini

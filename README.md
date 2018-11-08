@@ -12,6 +12,7 @@ sudo cp frps.service /usr/local/frp
 
 4、复制自启服务frps.service文件并启用
 sudo cp frps.service /usr/lib/systemd/system
+
 sudo systemctl enable frps
 #查看服务是否生效
 sudo systemctl list-units |grep frps
@@ -29,6 +30,7 @@ sudo cp frpc.service /usr/local/frp
 
 4、复制自启服务frpc.service文件并启用
 sudo cp frpc.service /usr/lib/systemd/system
+
 sudo systemctl enable frpc
 #查看服务是否生效
 sudo systemctl list-units |grep frpc

@@ -4,7 +4,7 @@
 
 1、下载frp程序文件
 ```Bash
-https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz
+wget https://github.com/fatedier/frp/releases/download/v0.21.0/frp_0.21.0_linux_amd64.tar.gz
 ```
 2、复制frps启动命令及配置文件到系统相应目录：
 ```Bash

@@ -13,7 +13,7 @@ sudo cp -r frp_0.21.0_linux_amd64 /usr/local/frp
 ```
 3、复制配置文件frps.ini到frp目录
 ```Bash
-sudo cp frps.service /usr/local/frp
+sudo cp frps.ini /usr/local/frp
 ```
 4、复制自启服务frps.service文件并启用
 ```Bash
@@ -36,7 +36,7 @@ sudo cp -r frp_0.21.0_linux_amd64 /usr/local/frp
 ```
 3、复制配置文件frpc.ini到frp目录
 ```Bash
-sudo cp frpc.service /usr/local/frp
+sudo cp frpc.ini /usr/local/frp
 ```
 4、复制自启服务frpc.service文件并启用
 ```Bash

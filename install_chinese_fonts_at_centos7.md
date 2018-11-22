@@ -14,8 +14,9 @@ sudo ttmkfdir -e /usr/share/X11/fonts/encodings/encodings.dir
 4、修改字体配置文件
 ```Bash
 sudo vim /etc/fonts/fonts.conf
+```
 类似这样
-
+```Bash
         <dir>/usr/share/fonts</dir>
         <dir>/usr/share/fonts/chinese-fts</dir>
 ```  
